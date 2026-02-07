@@ -1,0 +1,167 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: inter;
+}
+
+body{
+    background-image: url(https://www.mintlify.com/hero/bg-light.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -162px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    /* position: absolute; */
+    top: -10rem;
+    /* mask-image: linear-gradient(#000 0%, rgba(0, 0, 0, .99) 18.5%, rgba(0, 0, 0, .953) 34.3%, rgba(0, 0, 0, .894) 47.6%, rgba(0, 0, 0, .824) 58.5%, rgba(0, 0, 0, .74) 67.5%, rgba(0, 0, 0, .647) 74.7%, rgba(0, 0, 0, .55) 80.3%, rgba(0, 0, 0, .45) 84.7%, rgba(0, 0, 0, .353) 88%, rgba(0, 0, 0, .26) 90.5%, rgba(0, 0, 0, .176) 92.5%, rgba(0, 0, 0, .106) 94.2%, rgba(0, 0, 0, .047) 95.9%, rgba(0, 0, 0, .01) 97.7%, transparent 100%); */
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    width: 60%;
+    color : #fff;
+    font-family: "inter";
+    font-size: 14px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 0 solid;
+    padding: 0;
+}
+
+#navbarContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    justify-content: space-around;
+
+}
+
+#authButtons{
+    display: flex;
+    gap: 8px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+li{
+    padding:0 10px ;
+}
+
+.navbarButtons{
+    width: 110px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login{
+    background-color: #ffffff30;
+    padding: 10px 10px;
+    border-radius: 20px;
+
+}
+.signup{
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+main{
+    margin: 66px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6.5px;
+}
+
+.belowNav{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 6.5px;
+    background-color: #00000030;
+    border-radius: 16px;
+    padding: 3.5px 4.5px;
+}
+
+.belowNav>span , .belowNav>p{
+    color: #fff;
+    font-family: "inter";
+    font-size: 14px;
+}
+.belowNav>span{
+    background-color: #0f8c5e;
+    border-radius: 10px;
+    padding: 2.5px 6px;
+    font-size: 11px;
+}
+
+.pageHeading{
+    font-size : 64px;
+    max-width: 43rem;
+    text-align: center;
+    margin-top: 35px;
+    font-weight: 600;
+}
+
+.secondaryHeading{
+    max-width: 29.5rem;
+    text-align: center;
+    font-size: 18px;
+}
+.pageHeadings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+.headingsForm{
+    background-color: #ffffff20;
+    /* background-color: (100 0 0 / 0.15); */
+    backdrop-filter : blur(12px);
+    padding: 6px 6px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border:1px solid lab(71.42% -7 -2.97);
+}
+
+input{
+    /* style: none; */
+    background-color: transparent;
+    cursor : text;
+    height: 32px;
+    width: 249.43px;
+    border: none;
+    color : lab(100 0 0);
+    position: relative;
+    left: 10px;
+}
+
+input::placeholder{
+    color: #ffffff70;
+}
+.startNow{
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.mainBodypicture{
+    margin-top: 100px;
+    border-radius: 22px;
+    height : 653.344px;
+}
