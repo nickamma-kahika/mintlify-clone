@@ -147,10 +147,14 @@ input{
     color : lab(100 0 0);
     position: relative;
     left: 10px;
+    
 }
 
 input::placeholder{
     color: #ffffff70;
+}
+input:focus{
+    outline: none;
 }
 .startNow{
     background-color: white;
